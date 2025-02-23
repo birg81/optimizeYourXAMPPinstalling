@@ -122,7 +122,7 @@ DEL /S /Q .\mysql\data\mysql.pid 2>NUL
 DEL /S /Q .\mysql\data\mysql_error.log 2>NUL
 DEL /S /Q .\mysql\share\*.jar 2>NUL
 DEL /S /Q .\passwords.txt 2>NUL
-DEL /S /Q .\phpMyAdmin\config.sample.inc 2>NUL
+DEL /S /Q .\phpMyAdmin\config.sample.inc.php 2>NUL
 DEL /S /Q .\phpMyAdmin\tmp\* 2>NUL
 RD /S /Q .\phpMyAdmin\tmp\* 2>NUL
 RD /S /Q .\phpMyAdmin\tmp\twig 2>NUL
