@@ -1,0 +1,141 @@
+@ECHO OFF
+ECHO ** XAMPP **
+ECHO Waiting for cleaning...
+SET "xampp=C:\xampp"
+CD %xampp%
+CD /D %~dp0
+RD /S /Q .\anonymous 2>NUL
+RD /S /Q .\apache\include 2>NUL
+RD /S /Q .\apache\manual 2>NUL
+RD /S /Q .\cgi-bin 2>NUL
+RD /S /Q .\contrib 2>NUL
+RD /S /Q .\FileZillaFTP 2>NUL
+RD /S /Q .\htdocs\dashboard\de 2>NUL
+RD /S /Q .\htdocs\dashboard\es 2>NUL
+RD /S /Q .\htdocs\dashboard\fr 2>NUL
+RD /S /Q .\htdocs\dashboard\hu 2>NUL
+REM RD /S /Q .\htdocs\dashboard\it 2>NUL
+RD /S /Q .\htdocs\dashboard\jp 2>NUL
+RD /S /Q .\htdocs\dashboard\pl 2>NUL
+RD /S /Q .\htdocs\dashboard\pt_br 2>NUL
+RD /S /Q .\htdocs\dashboard\ro 2>NUL
+RD /S /Q .\htdocs\dashboard\ru 2>NUL
+RD /S /Q .\htdocs\dashboard\tr 2>NUL
+RD /S /Q .\htdocs\dashboard\ur 2>NUL
+RD /S /Q .\htdocs\dashboard\zh_cn 2>NUL
+RD /S /Q .\htdocs\dashboard\zh_tw 2>NUL
+RD /S /Q .\htdocs\webalizer 2>NUL
+RD /S /Q .\htdocs\xampp 2>NUL
+RD /S /Q .\install 2>NUL
+RD /S /Q .\licenses 2>NUL
+RD /S /Q .\locale\de 2>NUL
+RD /S /Q .\mailoutput 2>NUL
+RD /S /Q .\mailtodisk 2>NUL
+RD /S /Q .\MercuryMail 2>NUL
+RD /S /Q .\mysql\backup 2>NUL
+RD /S /Q .\mysql\share\bulgarian 2>NUL
+RD /S /Q .\mysql\share\charsets 2>NUL
+RD /S /Q .\mysql\share\chinese 2>NUL
+RD /S /Q .\mysql\share\czech 2>NUL
+RD /S /Q .\mysql\share\danish 2>NUL
+RD /S /Q .\mysql\share\dutch 2>NUL
+RD /S /Q .\mysql\share\estonian 2>NUL
+RD /S /Q .\mysql\share\french 2>NUL
+RD /S /Q .\mysql\share\german 2>NUL
+RD /S /Q .\mysql\share\greek 2>NUL
+RD /S /Q .\mysql\share\hindi 2>NUL
+RD /S /Q .\mysql\share\hungarian 2>NUL
+REM RD /S /Q .\mysql\share\italian 2>NUL
+RD /S /Q .\mysql\share\japanese 2>NUL
+RD /S /Q .\mysql\share\korean 2>NUL
+RD /S /Q .\mysql\share\norwegian 2>NUL
+RD /S /Q .\mysql\share\norwegian-ny 2>NUL
+RD /S /Q .\mysql\share\polish 2>NUL
+RD /S /Q .\mysql\share\portuguese 2>NUL
+RD /S /Q .\mysql\share\romanian 2>NUL
+RD /S /Q .\mysql\share\russian 2>NUL
+RD /S /Q .\mysql\share\serbian 2>NUL
+RD /S /Q .\mysql\share\slovak 2>NUL
+RD /S /Q .\mysql\share\spanish 2>NUL
+RD /S /Q .\mysql\share\swedish 2>NUL
+RD /S /Q .\mysql\share\ukrainian 2>NUL
+RD /S /Q .\perl 2>NUL
+RD /S /Q .\phpMyAdmin\doc 2>NUL
+RD /S /Q .\phpMyAdmin\examples 2>NUL
+RD /S /Q .\phpMyAdmin\locale\ar 2>NUL
+RD /S /Q .\phpMyAdmin\locale\az 2>NUL
+RD /S /Q .\phpMyAdmin\locale\be 2>NUL
+RD /S /Q .\phpMyAdmin\locale\bg 2>NUL
+RD /S /Q .\phpMyAdmin\locale\bn 2>NUL
+RD /S /Q .\phpMyAdmin\locale\ca 2>NUL
+RD /S /Q .\phpMyAdmin\locale\cs 2>NUL
+RD /S /Q .\phpMyAdmin\locale\da 2>NUL
+RD /S /Q .\phpMyAdmin\locale\de 2>NUL
+RD /S /Q .\phpMyAdmin\locale\el 2>NUL
+RD /S /Q .\phpMyAdmin\locale\en_GB 2>NUL
+RD /S /Q .\phpMyAdmin\locale\es 2>NUL
+RD /S /Q .\phpMyAdmin\locale\et 2>NUL
+RD /S /Q .\phpMyAdmin\locale\fi 2>NUL
+RD /S /Q .\phpMyAdmin\locale\fr 2>NUL
+RD /S /Q .\phpMyAdmin\locale\gl 2>NUL
+RD /S /Q .\phpMyAdmin\locale\he 2>NUL
+RD /S /Q .\phpMyAdmin\locale\hu 2>NUL
+RD /S /Q .\phpMyAdmin\locale\hy 2>NUL
+RD /S /Q .\phpMyAdmin\locale\ia 2>NUL
+RD /S /Q .\phpMyAdmin\locale\id 2>NUL
+REM RD /S /Q .\phpMyAdmin\locale\it 2>NUL
+RD /S /Q .\phpMyAdmin\locale\ja 2>NUL
+RD /S /Q .\phpMyAdmin\locale\ka 2>NUL
+RD /S /Q .\phpMyAdmin\locale\kk 2>NUL
+RD /S /Q .\phpMyAdmin\locale\ko 2>NUL
+RD /S /Q .\phpMyAdmin\locale\nb 2>NUL
+RD /S /Q .\phpMyAdmin\locale\nl 2>NUL
+RD /S /Q .\phpMyAdmin\locale\pl 2>NUL
+RD /S /Q .\phpMyAdmin\locale\pt 2>NUL
+RD /S /Q .\phpMyAdmin\locale\pt_BR 2>NUL
+RD /S /Q .\phpMyAdmin\locale\ro 2>NUL
+RD /S /Q .\phpMyAdmin\locale\ru 2>NUL
+RD /S /Q .\phpMyAdmin\locale\si 2>NUL
+RD /S /Q .\phpMyAdmin\locale\sk 2>NUL
+RD /S /Q .\phpMyAdmin\locale\sl 2>NUL
+RD /S /Q .\phpMyAdmin\locale\sq 2>NUL
+RD /S /Q .\phpMyAdmin\locale\sv 2>NUL
+RD /S /Q .\phpMyAdmin\locale\tr 2>NUL
+RD /S /Q .\phpMyAdmin\locale\ug 2>NUL
+RD /S /Q .\phpMyAdmin\locale\uk 2>NUL
+RD /S /Q .\phpMyAdmin\locale\vi 2>NUL
+RD /S /Q .\phpMyAdmin\locale\zh_CN 2>NUL
+RD /S /Q .\phpMyAdmin\locale\zh_TW 2>NUL
+RD /S /Q .\phpMyAdmin\themes\bootstrap 2>NUL
+RD /S /Q .\phpMyAdmin\themes\Original 2>NUL
+RD /S /Q .\sendmail 2>NUL
+RD /S /Q .\src 2>NUL
+RD /S /Q .\webalizer 2>NUL
+RD /S /Q .\webdav 2>NUL
+DEL /S /Q .\*.txt 2>NUL
+DEL /S /Q .\apache\logs\*.* 2>NUL
+DEL /S /Q .\filezilla_s*.bat 2>NUL
+DEL /S /Q .\mercury_s*.bat 2>NUL
+DEL /S /Q .\mysql\bin\*.pl 2>NUL
+DEL /S /Q .\mysql\bin\*.sql 2>NUL
+DEL /S /Q .\mysql\data\mysql.pid 2>NUL
+DEL /S /Q .\mysql\data\mysql_error.log 2>NUL
+DEL /S /Q .\mysql\share\*.jar 2>NUL
+DEL /S /Q .\passwords.txt 2>NUL
+DEL /S /Q .\phpMyAdmin\config.sample.inc 2>NUL
+DEL /S /Q .\phpMyAdmin\tmp\* 2>NUL
+RD /S /Q .\phpMyAdmin\tmp\* 2>NUL
+RD /S /Q .\phpMyAdmin\tmp\twig 2>NUL
+DEL /S /Q .\readme_*.txt 2>NUL
+DEL /S /Q .\service.exe 2>NUL
+DEL /S /Q .\temp\* 2>NUL
+DEL /S /Q .\tmp\* 2>NUL
+RD /S /Q .\tmp\h* 2>NUL
+DEL /S /Q .\xampp_shell.bat 2>NUL
+DEL /S /Q .\xampp-control.log 2>NUL
+REM ONLY FOR STARTUP INSTALLING
+REM RD /S /Q .\tomcat 2>NUL
+REM MKLINK /D .\tomcat "<YOUR-PATH>\apache-tomcat-<VERSION>"
+ECHO Completely cleaned...
+.\tomcat\clear.bat
+PAUSE
