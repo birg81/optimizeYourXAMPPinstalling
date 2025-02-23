@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit]
+"CurrentVersion"="25.0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Development Kit\25.0]
+"JavaHome"="C:\\Program Files\\Java\\jdk-25"
+"MicroVersion"="0"
