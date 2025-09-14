@@ -7,8 +7,11 @@ DEL /S /Q .\*.txt 2>NUL
 DEL /S /Q .\RELEASE-NOTES 2>NUL
 DEL /S /Q .\bin\*.sh 2>NUL
 DEL /S /Q .\bin\catalina-tasks.xml 2>NUL
+DEL /S /Q .\bin\*.tar.gz 2>NUL
 DEL /S /Q .\bin\commons-daemon.jar 2>NUL
+REM If you need a windows GUI don't remove next 2 line
 DEL /S /Q .\bin\tcnative-*.dll 2>NUL
+DEL /S /Q .\bin\tomcat*.exe 2>NUL
 DEL /S /Q .\lib\tomcat-i18n-*.jar 2>NUL
 DEL /S /Q .\logs\*.* 2>NUL
 DEL /S /Q .\temp\*.* 2>NUL
